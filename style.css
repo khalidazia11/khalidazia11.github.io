@@ -24,7 +24,9 @@ header .judul{
 header .deskripsi{
 	font-size: 17pt;
 }
- 
+ header .deskripsi2{
+	font-size: 17pt;
+}
 .wrap {
 	width: 950px;
 	margin:25px auto;
