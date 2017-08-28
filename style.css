@@ -12,7 +12,7 @@ p {
 }
 
 .container {
-  max-width: 500px;
+  max-width: 80px;
   margin: 0 auto;
 }
 
@@ -21,7 +21,7 @@ p {
   text-align: center;
   background: url("https://wallpaperscraft.com/image/coleostephus_yellow_background_garden_3121_2560x1440.jpg") no-repeat center center;
   background-size: cover;
-  height: 600px;
+  height: 400px;
 }
 
 .main .container {
