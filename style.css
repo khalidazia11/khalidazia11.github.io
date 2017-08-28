@@ -4,12 +4,6 @@ html, body {
 
 h1, h2, a {
   font-family: 'Oswald', sans-serif;
-  html, body {
-  margin: 0;
-}
-
-h1, h2, a {
-  font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
 }
 
@@ -25,7 +19,7 @@ p {
 /* Main */
 .main {
   text-align: center;
-  background: url("https://wallpaperscraft.com/image/coleostephus_yellow_background_garden_3121_2560x1440.jpg") no-repeat center center;
+  background: url("https://s3.amazonaws.com/codecademy-content/projects/move/bg.jpg") no-repeat center center;
   background-size: cover;
   height: 600px;
 }
@@ -153,4 +147,3 @@ p {
 a.btn:hover {
   background:#ffa800;
   color:#000;
-}
