@@ -49,6 +49,16 @@ p {
   text-decoration: none;
   display: inline-block;
 }
+ 
+a.Link:link {
+  color:"white";
+}
+a.Link:visited {
+  color:"black";
+}
+a.Link:hover {
+  color:"black";
+}
 
 /* Supporting */
 .supporting {
