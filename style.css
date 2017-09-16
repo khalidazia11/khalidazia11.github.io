@@ -49,16 +49,7 @@ p {
   text-decoration: none;
   display: inline-block;
 }
- 
-Link:link {
-  color:"white";
-}
-Link:visited {
-  color:"black";
-}
-Link:hover {
-  color:"black";
-}
+
 
 /* Supporting */
 .supporting {
