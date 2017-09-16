@@ -40,7 +40,18 @@ p {
   margin: 0 0 20px 0;
   font-size: 18px;
 }
-
+.link:hover{
+	color: white;
+}
+.link:link{
+	color: black;
+}
+.link:active{
+	color: #75ABBD;
+}
+.link:visited{
+	background: yellow;
+}
 .main .btn {
   background-color: #1c1c1c;
   color: #fff;
