@@ -50,13 +50,13 @@ p {
   display: inline-block;
 }
  
-a.Link:link {
+Link:link {
   color:"white";
 }
-a.Link:visited {
+Link:visited {
   color:"black";
 }
-a.Link:hover {
+Link:hover {
   color:"black";
 }
 
