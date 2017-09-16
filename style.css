@@ -40,16 +40,16 @@ p {
   margin: 0 0 20px 0;
   font-size: 18px;
 }
-.link:hover{
+.Link:hover{
 	color: white;
 }
-.link:link{
+.Link:link{
 	color: black;
 }
-.link:active{
+.Link:active{
 	color: #75ABBD;
 }
-.link:visited{
+.Link:visited{
 	background: yellow;
 }
 .main .btn {
