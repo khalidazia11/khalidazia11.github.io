@@ -39,29 +39,27 @@
           <p></p>
         </div>
         
-        <div class="clearfix"></div>
-        
-          <p></p>
-         
-      </div>
-      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<style>
-.mySlides {display:none;}
-</style>
-  </head>
-  <body>
-    <div class="header">
-      <div class="container">
-        <h1>Innovation Cloud</h1>
-        <p>Connect your ideas globally</p>
-        <a class="btn" href="#">Learn More</a>
-      </div>
-    </div>
-<div class="w3-content w3-section" style="max-width:500px">
+        <div class="w3-content w3-section" style="max-width:500px">
   <img class="mySlides" src="https://thumbs.dreamstime.com/b/pink-azaleas-panorama-4790496.jpg" style="width:100%">
   <img class="mySlides" src="https://photos.smugmug.com/Panorama/i-KBW7GMT/1/7c31ed75/XL/20120708_misc_0169-Edit-XL.jpg" style="width:100%">
   <img class="mySlides" src="https://render.fineartamerica.com/images/images-profile-flow/350/images/artworkimages/medium/1/bush-pink-panorama-guru.jpg" style="width:100%">
 </div>
+
+<script>
+var myIndex = 0;
+carousel();
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
        <p><h2><font color=white style="text-align:center">WINNER 'LOVE ME LOVE ME' M/V</color></h2></p>
     <br>
     <iframe width="840" height="472"src="https://www.youtube.com/embed/ppOWR7ZLl7Q" frameborder="0" allowfullscreen>
