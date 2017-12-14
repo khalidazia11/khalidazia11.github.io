@@ -16,6 +16,51 @@ p {
   margin: 0 auto;
 }
 
+/* Main */
+.main {
+  text-align: center;
+  background: url("https://wallpaperscraft.com/image/coleostephus_yellow_background_garden_3121_2560x1440.jpg") no-repeat center center;
+  background-size: cover;
+  height: 600px;
+}
+
+.main .container {
+  position: relative;
+  top: 100px;
+}
+
+.main h1 {
+  color: #fff;
+  margin: 0;
+  font-size: 150px;
+}
+
+.main p {
+  color: #fff;
+  margin: 0 0 20px 0;
+  font-size: 18px;
+}
+.Link:hover{
+	color: white;
+}
+.Link:link{
+	color: black;
+}
+.Link:active{
+	color: #75ABBD;
+}
+.Link:visited{
+	background: yellow;
+}
+.main .btn {
+  background-color: #1c1c1c;
+  color: #fff;
+  font-size: 18px;
+  padding: 8px 30px;
+  text-decoration: none;
+  display: inline-block;
+}
+
 
 /* Supporting */
 .supporting {
