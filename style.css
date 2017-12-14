@@ -110,6 +110,8 @@ p {
 }
 
 .jumbotron {
+	max-width: 940px;
+  margin: 0 auto;
   background: url(http://s3.amazonaws.com/codecademy-content/projects/innovation-cloud/jumbotron_bg.jpg) center center;
   background-size: cover;
   height: 600px; 
@@ -136,6 +138,8 @@ p {
 }
 
 .footer { 
+	max-width: 940px;
+  margin: 0 auto;
   background: #000;
   height: 80px; 
   padding-bottom: 50px;
