@@ -15,7 +15,17 @@ p {
   max-width: 940px;
   margin: 0 auto;
 }
+.ida {
+  text-align: center;
+  background: url("https://wallpaperscraft.com/image/coleostephus_yellow_background_garden_3121_2560x1440.jpg") no-repeat center center;
+  background-size: cover;
+  height: 600px;
+}
 
+.ida .container {
+  position: relative;
+  top: 100px;
+}
 /* Main */
 .main {
   text-align: center;
@@ -59,6 +69,7 @@ p {
   padding: 8px 30px;
   text-decoration: none;
   display: inline-block;
+style="height: 25px; width: 100px
 }
 
 
